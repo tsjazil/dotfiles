@@ -1,21 +1,3 @@
-##=================================
-#set selection-clipboard clipboard
-##tabbed -c zathura -e
-#set sandbox none
-#set statusbar-h-padding 0
-#set statusbar-v-padding 0
-#set page-padding 1
-#set selection-clipboard clipboard
-#map u scroll half-up
-#map d scroll half-down
-#map D toggle_page_mode
-#map r reload
-#map R rotate
-#map A zoom in
-#map D zoom out
-#map i recolor
-#map p print
-#map g goto top
 set recolor
 set sandbox none
 set statusbar-h-padding 0
@@ -38,32 +20,6 @@ set font                        "Jetbrains Mono 9"
 map b toggle_statusbar
 
 
-
-#map b guioptions none
-
-# My One-Dark themed Zathura Settings
-
-#set default-bg                  "#1e222a"
-#set default-fg                  "#979eab"
-#
-#set statusbar-fg                "#979eab"
-#set statusbar-bg                "#353b45"
-#
-#set inputbar-fg                 "#d3c6aa"
-#
-#set notification-error-bg       "#1e222a"
-#set notification-error-fg       "#979eab"
-#
-#set highlight-color             "#abb2bf"
-#set highlight-active-color      "#61afef"
-#
-#set notification-bg             "#1e222a"
-#set notification-fg             "#979eab"
-#
-#set recolor-lightcolor          "#1e222a"
-#set recolor-darkcolor           "#979eab"
-#set recolor                     "true"
-#
 
 set default-fg 			    "#d9e0ee"
 set default-bg 			    "#1e1d2f"
@@ -102,26 +58,3 @@ set render-loading-fg		"#d9e0ee"
 set highlight-color		    "#575268"
 set highlight-fg            "#f5c2e7"
 set highlight-active-color	"#f5c2e7"
-
-
-#
-#set default-bg                     "#0B0C11"
-#set default-fg                     "#b8b6bc"
-#set statusbar-bg                   "#0B0C11"
-#set statusbar-fg                   "#b8b6bc"
-#set inputbar-bg                    "#0B0C11"
-#set inputbar-fg                    "#b8b6bc"
-#set notification-bg                "#0B0C11"
-#set notification-fg                "#b8b6bc"
-#set notification-error-bg          "#0B0C11"
-#set notification-error-fg          "#b8b6bc"
-#set notification-warning-bg        "#0B0C11"
-#set notification-warning-fg        "#b8b6bc"
-#set highlight-color                "#61586C"
-#set highlight-active-color         "#3F6899"
-#set completion-bg                  "#61586C"
-#set completion-fg                  "#3F6899"
-#set completion-highlight-bg        "#61586C"
-#set completion-highlight-fg        "#3F6899"
-#set recolor-lightcolor             "#0B0C11"
-#set recolor-darkcolor              "#b8b6bc"

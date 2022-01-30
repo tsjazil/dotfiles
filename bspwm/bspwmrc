@@ -7,10 +7,8 @@ xrandr --output eDP-1 --mode 1600x900 &
 xwallpaper --zoom ~/pix/wal.jpg &
 
 
-#bspc monitor HDMI-1 -d I II III IV V
-bspc monitor -d I II III IV V
-#bspc monitor eDP-1 -d VI VII VIII IX
-#bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor HDMI-1 -d I II III IV V
+bspc monitor eDP-1 -d VI VII VIII IX
 
 # source the colors.
 . "${HOME}/.cache/wal/colors.sh"

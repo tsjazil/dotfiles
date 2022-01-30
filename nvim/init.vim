@@ -64,10 +64,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ap/vim-css-color'
 Plug 'mattn/emmet-vim'
 
-"hi LineNr guibg=bg
-"set foldcolumn=2
-"hi foldcolumn guibg=bg
-"hi VertSplit guibg=bg guifg=bg
 
 Plug 'ap/vim-css-color'
 call plug#end()
@@ -93,10 +89,6 @@ highlight Function         ctermfg=1    ctermbg=none    cterm=none
 
 highlight CursorLine cterm=NONE ctermbg=NONE
 
-"highlight CursorLine cterm=NONE ctermbg=Black
-"highlight CursorLine cterm=NONE ctermbg=grey
-"
-"highlight CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
 """""""
 set ignorecase
 set smartcase
@@ -222,12 +214,6 @@ let g:lightline = {
       \ 'colorscheme': 'catppuccin',
       \ }
 
-"let g:lightline = {
-      "\ 'colorscheme': 'darcula',
-      "\ }
-" let g:lightline = {
-      " \ 'colorscheme': '',
-      " \ }
 " Always show statusline
 set laststatus=2
 
@@ -363,22 +349,3 @@ autocmd Filetype java inoremap ja;; import java.io.*;<Return>import java.util.*;
 autocmd Filetype java inoremap sysp;; System.out.println("");<Left><Left><Left>
 
 autocmd Filetype java inoremap pubst; public static void main(String[] args){<Enter>
-
-
-
-"java syntax highlighting
-" Java: 'new', 'instanceof'
-"highlight Operator ctermfg=5  guifg=#d175bc
-" Java: 'this', 'super'
-"highlight Typedef ctermfg=5  guifg=#d175bc
-" Java: 'void', 'int', 'double'
-"highlight Type ctermfg=4  guifg=#69b7d3
-" literal numbers
-"highlight Number term=bold ctermfg=16 gui=bold guifg=#d2d22d
-
-
-
-"noremap! <expr> ;f   InsertPair('{')
-"noremap! <expr> ;h   InsertPair('[')
-"noremap! <expr> ;s   InsertPair('(')
-"noremap! <expr> ;u   InsertPair('<')
