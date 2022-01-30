@@ -1,1 +1,1 @@
-#bspwm dotfiles (WIP)
+# bspwm dotfiles (WIP)
