@@ -1,0 +1,55 @@
+#!/bin/sh
+
+notification(){
+	notify-send "Playing quran recitaion by $recitor ✨"
+}
+
+menu(){
+	printf "1. Abdul Rahman As-Sudais\n"
+	printf "2. Abdul Rahamn Mossad\n"
+	printf "3. Mishary Rashid Alafasy\n"
+	printf "4. Ahmed Al nufays\n"
+	printf "5. Sharif Mustafa\n"
+	printf "6. Recitaion Quran\n"
+}
+
+main() {
+    chose=$(menu | rofi -dmenu )
+    choice=$( echo $chose | cut -d. -f1)
+    recitor=$( echo $chose | cut -d. -f2)
+	case $choice in
+		1)
+			notification ;
+				mpv "https://www.youtube.com/playlist?list=PLxpAkjlGauHfNQ54UPl7tCW4JidJHXWSi" --no-video
+			break
+			;;
+		2)
+			notification ;
+				mpv "https://www.youtube.com/playlist?list=PLyRT-uL8zTIbdYX7OsrVEzVTwy4OxwQbI" --no-video
+			break
+			;;
+		3)
+			notification ;
+				mpv "https://youtube.com/playlist?list=PLoqNzfHlA__knCeUoKUHjQfZpUL6mj64w" --no-video
+			break
+			;;
+		4)
+			notification ;
+				mpv "https://youtube.com/playlist?list=PLA-tSeb-y8mlobzOHc_hbzX4RG8q2pQVh" --no-video
+			break
+			;;
+		5)
+			notification ;
+				mpv "https://www.youtube.com/playlist?list=PLcrTP5Q5TXJEY_50WJjgeZ8Zno1JgnVos" --no-video
+			break
+			;;
+		6)
+			notification ;
+				mpv "https://www.youtube.com/playlist?list=UUjnq9C7E7fjBh8m3xs60zkQ" --no-video
+			break
+			;;
+
+	esac
+}
+
+pkill -f http || main

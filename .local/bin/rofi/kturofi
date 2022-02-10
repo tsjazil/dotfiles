@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+#Checking Dependencies
+for apps in fzf jq zathura notify-send; do
+	[ ! "$(which "$apps")" ] && echo "Please install $apps!" && exit 1
+done
+
+
+#Displaying Notifications
+ id=$(curl http://ktu.amith.ninja/ |jq '.' |jq -r '.notifications[]| "\(.title)  \(.links[].url)"'| rofi -dmenu | awk '{print $(NF-1),"\t",$NF}' )
+[ -z "$id" ]  && exit 1
+
+#Downloading Notification
+wget -O /tmp/ktu-notification.pdf "$id"
+notify-send "📥 Opening Notification"
+
+#Open Notification Using Zathura
+zathura /tmp/ktu-notification.pdf

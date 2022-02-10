@@ -1,0 +1,10 @@
+#!/bin/bash
+
+id=$(bluetoothctl devices | rofi -p 'Select: ' -dmenu | awk '{print $2}')
+
+printf "Connect or disconnect"
+[ -z "$id" ] && exit 1
+case "$(printf "Connect\nDisconnect\n" | rofi -p 'Action: ' -dmenu)" in
+	'Disconnect') bluetoothctl disconnect $id && notify-send "⭕ Disconnected Succesfully" ;;
+	'Connect') bluetoothctl connect $id && notify-send "🎧 Connected Succesfully";;
+esac

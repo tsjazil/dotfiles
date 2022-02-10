@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Bash script to check which blutetooth is connected 
+
+
+name=$(bluetoothctl info | awk '$1 == "Name:" { print $0 }' | sed 's/Name: //g' |  sed  's/^[ \t]*//')
+
+[ $name==0 ] && notify-send "📣 No Bluetooth devices connected" || notify-send "🎧 $name Connected"
