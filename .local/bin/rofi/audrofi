@@ -1,4 +1,5 @@
 #!/bin/sh
+#script for quran recitation from My favourite Qari's
 
 notification(){
 	notify-send "Playing quran recitaion by $recitor ✨"
