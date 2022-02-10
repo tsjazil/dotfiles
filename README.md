@@ -6,5 +6,5 @@
   <br><br>
 	<p align="center">
     <a href="https://github.com/tsjazil/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/tsjazil/dotfiles?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a></p>
-	<img src="https://raw.githubusercontent.com/tsjazil/dotfiles/main/assets/unix1.jpg" width="700">
+	<img src="https://raw.githubusercontent.com/tsjazil/dotfiles/main/assets/unix1.jpg" style="border-radius:8px;" width="700">
 </h3>
