@@ -1,6 +1,6 @@
 <h1 align="center">
 	Bspwm dotfiles
-  <br><br>
+  <br>
   </h1>
   <h3 align ="center">Catppuccin themed
   <br><br>
