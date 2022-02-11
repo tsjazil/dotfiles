@@ -2,7 +2,7 @@
 	bspwm dotfiles
   <br>
   </h1>
-  <h3 align ="center">🐱 Catppuccin themed
+  <h3 align ="center">🐱<a href="https://www.github.com/catppuccin/catppuccin"> Catppuccin themed</a>
   <br><br>
 	<p align="center">
     <a href="https://github.com/tsjazil/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/tsjazil/dotfiles?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a></p>
