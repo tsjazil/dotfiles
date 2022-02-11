@@ -1,5 +1,5 @@
 <h1 align="center">
-	Bspwm dotfiles
+	bspwm dotfiles
   <br>
   </h1>
   <h3 align ="center">🐱 Catppuccin themed
