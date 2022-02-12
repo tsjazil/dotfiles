@@ -21,8 +21,6 @@
 | 🎨 Color Scheme    | [Catpppuccin](https://github.com/catppuccin)                                                                                |
 | 🚀 Window Manager  | [Bspwm](https://github.com/baskerville/bspwm)                                                                               |
 | 🚧 Bar             | [Polybar](https://github.com/polybar/polybar)                                                                               |
-| 💾 Launcher        | [Rofi](https://github.com/davatorium/rofi)                                                                                    |
-| 🌍 Web Browser     | [Firefox](https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com)                                             |
 | 🖊️ Text Editor     | [Neovim](https://github.com/neovim/neovim)                                                                                  |
 | 🐚 Shell           | [zsh](#)                                                                                                                    |
 | ⌨️ Terminal        | [Alacritty](https://github.com/alacritty/alacritty)                                                                         |
