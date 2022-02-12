@@ -6,6 +6,7 @@
   <br></h4>
 	<h2 align ="center"><p align="center">
     <a href="https://github.com/tsjazil/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/tsjazil/dotfiles?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a></p>
+
 </h2>
 
 
@@ -26,7 +27,11 @@
 | 🐚 Shell           | [zsh](#)                                                                                                                    |
 | ⌨️ Terminal        | [Alacritty](https://github.com/alacritty/alacritty)                                                                         |
 | 📄 Document Viewer | [Zathura](https://github.com/alacritty/alacritty)                                                                           |
-| ⌛ Compositor      | [Picom](https://aur.archlinux.org/packages/picom-rounded-corners)                                                                     
+| ⌛ Compositor      | [Picom](https://aur.archlinux.org/packages/picom-rounded-corners)                                                           |
+
+## 🖼️ Gallery
+
+![gallery](https://raw.githubusercontent.com/tsjazil/dotfiles/main/assets/unix1.jpg)
 
 
 
