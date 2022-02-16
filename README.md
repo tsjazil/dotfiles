@@ -24,7 +24,7 @@
 | 🖊️ Text Editor     | [Neovim](https://github.com/neovim/neovim)                                                                                  |
 | 🐚 Shell           | [zsh](#)                                                                                                                    |
 | ⌨️ Terminal        | [Alacritty](https://github.com/alacritty/alacritty)                                                                         |
-| 📄 Document Viewer | [Zathura](https://github.com/alacritty/alacritty)                                                                           |
+| 📄 Document Viewer | [Zathura](https://github.com/pwmt/zathura)                                                                                  |
 | ⌛ Compositor      | [Picom](https://aur.archlinux.org/packages/picom-rounded-corners)                                                           |
 
 ## 🖼️ Gallery
