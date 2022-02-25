@@ -6,7 +6,7 @@
   <br></h4>
 	<h2 align ="center"><p align="center">
     <a href="https://github.com/tsjazil/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/tsjazil/dotfiles?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a></p>
-
+	<p>Upvote this rice on <a href="https://www.reddit.com/r/unixporn/comments/spaws0/bspwm_catppuccin_rice">Reddit</a></p>
 </h2>
 
 
