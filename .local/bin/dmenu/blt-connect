@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Script to connect to bluetooth devices using dmenu
+
+id=$(bluetoothctl devices | dmenu  -l 10 | awk '{print $2}')
+
+printf "Connect or disconnect"
+[ -z "$id" ] && exit 1
+case "$(printf "Connect\nDisconnect\n" | dmenu -i -p 'Action: ')" in
+	'Disconnect') bluetoothctl disconnect $id && notify-send "⭕ Disconnected Succesfully" ;;
+	'Connect') bluetoothctl connect $id && notify-send "🎧 Connected Succesfully";;
+esac
