@@ -1,2 +1,2 @@
-#My scipts
+# My scipts
 
