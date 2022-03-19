@@ -1,10 +1,10 @@
 # My scipts
 
-- blt
+- `blt`
   to know which blutooth device is connected
-- emojifzf
+- `emojifzf`
   For copying emoji from terminal using fzg
-- killer
+- `killer`
   To kill program running
-- powermenu
+- `powermenu`
   Rofi scipt to reboot and shutdonw pc
