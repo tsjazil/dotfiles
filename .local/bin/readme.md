@@ -8,3 +8,5 @@
   To kill program running
 - `powermenu`
   Rofi scipt to reboot and shutdonw pc
+- `curler`
+  curl script to make any files into links using 0x0.st

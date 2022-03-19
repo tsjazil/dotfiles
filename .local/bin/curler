@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Script to curl files into 0x0.st and make it a sharable link
+
+if [ -z "$1" ]
+then
+	printf "Enter Filename : "
+	read FILE
+	DIR=$(pwd)
+	curl -F "file=@$DIR/$FILE" http://0x0.st | xclip -sel c
+	notify-send "📋 Link on Clipboard"
+else
+	FILE=$1
+	DIR=$(pwd)
+	curl -F "file=@$DIR/$FILE" http://0x0.st | xclip -sel c
+	notify-send "📋 Link on Clipboard"
+fi
