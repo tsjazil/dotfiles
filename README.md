@@ -9,7 +9,7 @@
 	<h4 align="center">Upvote this rice on <a href="https://www.reddit.com/r/unixporn/comments/spaws0/bspwm_catppuccin_rice">Reddit</a></h4>
 </h2>
 
-
+##
 ##  
 ![gallery](https://raw.githubusercontent.com/tsjazil/dotfiles/main/assets/carousel.png)
 ## 
