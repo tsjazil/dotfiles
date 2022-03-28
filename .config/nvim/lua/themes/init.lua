@@ -1,3 +1,4 @@
+-- Onedark.conf
 -- Lua
 require('onedark').setup  {
     -- Main options --
