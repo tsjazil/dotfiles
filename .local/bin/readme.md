@@ -3,7 +3,7 @@
 - `blt`
   to know which blutooth device is connected
 - `emojifzf`
-  For copying emoji from terminal using fzg
+  For copying emoji from terminal using fzf
 - `killer`
   To kill program running
 - `powermenu`
