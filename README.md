@@ -56,6 +56,14 @@
   - [`opdrofi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/rofi/opdrofi) (to connect to paired blutooth devices)
   - [`wifirofi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/rofi/wifirofi) (to connect to an existing WiFi AP)
 
+### `.local/bin`
+
+  - [`blt`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/blt) (to display the connected blutooth device)
+  - [`emojifzf`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/emojifzf) (to copy emoji from terminal using fzf)
+  - [`killer`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/killer) (to kill a program)
+  - [`powermenu`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/powermenu) (rofi scipt to reboot and shutdown)
+  - [`curler`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/curler) (upload files to [`THE NULL POINTER`](http://0x0.st/) using `curl` and copy the link to the clipboard`
+
 ## Credits
 
 **@LukeSmith** for [voidrice](https://www.github.com/Lukesmithxyz/voidrice)!
