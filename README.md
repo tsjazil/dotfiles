@@ -47,6 +47,15 @@
   - [`wifi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/wifi) (to connect to an existing WiFi AP)
   - [`wifin`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/wifin) (to connect to a new wifi AP)
 
+### rofi
+
+  - [`quran-recitation-rofi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/rofi/audrofi) (to listen to Quran recitation of diff Qaris using rofi)
+  - [`emojirofi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/rofi/emojirofi) (to copy emojis)
+  - [`killerrofi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/rofi/killerofi) (to kill running programs)
+  - [`kturofi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/rofi/kturofi) (to fetch notifications from [KTU](https://ktu.edu.in/eu/core/announcements.htm) using [(ktunotifications)](https://github.com/tsjazil/ktunotifications))
+  - [`opdrofi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/rofi/opdrofi) (to connect to paired blutooth devices)
+  - [`wifirofi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/rofi/wifirofi) (to connect to an existing WiFi AP)
+
 ## Credits
 
 **@LukeSmith** for [voidrice](https://www.github.com/Lukesmithxyz/voidrice)!
