@@ -42,7 +42,7 @@
  
 ### dmenu
 
-  - [`quran-recitation`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/audio) (to hear Quran recitation of diff Qaris in dmenu)
+  - [`quran-recitation`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/audio) (to listen to Quran recitation of diff Qaris in dmenu)
   - [`blt-connect`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/blt-connect) (to connect to paired blutooth devices)
   - [`wifi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/wifi) (to connect to an existing WiFi AP)
   - [`wifin`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/wifin) (to connect to a new wifi AP)
