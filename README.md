@@ -31,6 +31,16 @@
 
 ![gallery](https://raw.githubusercontent.com/tsjazil/dotfiles/main/assets/unix1.jpg)
 
+## Scripts used
+
+### - Polybar
+
+  - [`memory`](https://github.com/tsjazil/dotfiles/blob/main/.config/polybar/scripts/memory) (to get memory usage)
+  - [`diskusage`](https://github.com/tsjazil/dotfiles/blob/main/.config/polybar/scripts/diskusage) (to get disk usage)
+  - [`network`](https://github.com/tsjazil/dotfiles/blob/main/.config/polybar/scripts/network) (to get the current network speed in %)
+  - [`sblt`](https://github.com/tsjazil/dotfiles/blob/main/.config/polybar/scripts/sblt) (to get the status of bluetooth)
 
 
+## Credits
 
+**@LukeSmith** for [voidrice](https://www.github.com/Lukesmithxyz/voidrice)!
