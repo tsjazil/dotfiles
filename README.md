@@ -33,13 +33,19 @@
 
 ## Scripts used
 
-### - Polybar
+### Polybar
 
   - [`memory`](https://github.com/tsjazil/dotfiles/blob/main/.config/polybar/scripts/memory) (to get memory usage)
   - [`diskusage`](https://github.com/tsjazil/dotfiles/blob/main/.config/polybar/scripts/diskusage) (to get disk usage)
   - [`network`](https://github.com/tsjazil/dotfiles/blob/main/.config/polybar/scripts/network) (to get the current network speed in %)
   - [`sblt`](https://github.com/tsjazil/dotfiles/blob/main/.config/polybar/scripts/sblt) (to get the status of bluetooth)
+ 
+### dmenu
 
+  - [`quran-recitation`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/audio) (to hear Quran recitation of diff Qaris in dmenu)
+  - [`blt-connect`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/blt-connect) (to connect to paired blutooth devices)
+  - [`wifi`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/wifi) (to connect to an existing WiFi AP)
+  - [`wifin`](https://github.com/tsjazil/dotfiles/blob/main/.local/bin/dmenu/wifin) (to connect to a new wifi AP)
 
 ## Credits
 
