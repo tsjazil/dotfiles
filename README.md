@@ -66,4 +66,4 @@
 
 ## Credits
 
-**@LukeSmith** for [voidrice](https://www.github.com/Lukesmithxyz/voidrice)!
+**LukeSmith** for [voidrice](https://www.github.com/Lukesmithxyz/voidrice)!
